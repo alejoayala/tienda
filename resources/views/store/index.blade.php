@@ -10,6 +10,7 @@
 						<p>Precio : ${{ number_format($product->price,2)}}</p>
 						<p>
 							<a href="#">La quiero de todas maneras</a>
+							<p>este es un nuevo parrafo</p>
 							<a href=" {{ route('product-detail',$product->slug)}}">leer mas</a>
 						</p>
 					</div>
