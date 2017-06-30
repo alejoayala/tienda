@@ -9,7 +9,7 @@
 						<p> {{ $product->extract}} </p>
 						<p>Precio : ${{ number_format($product->price,2)}}</p>
 						<p>
-							<a href="#">La quiero</a>
+							<a href="#">La quiero de todas maneras</a>
 							<a href=" {{ route('product-detail',$product->slug)}}">leer mas</a>
 						</p>
 					</div>
