@@ -11,6 +11,7 @@
 						<p>
 							<a href="#">La quiero de todas maneras</a>
 							<p>este es un nuevo parrafo</p>
+							<p>este es un nuevo parrafo2</p>							
 							<a href=" {{ route('product-detail',$product->slug)}}">leer mas</a>
 						</p>
 					</div>
